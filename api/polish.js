@@ -12,7 +12,7 @@ const generationConfig = {
 async function main() {
     const interaction = await ai.interactions.create({
         model: 'models/gemini-4-hydrogen',
-        input: 'INSERT_INPUT_HERE',
+        input: 'req.body.text',
         generation_config: generationConfig,
     });
 
