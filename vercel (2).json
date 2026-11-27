@@ -1,0 +1,3 @@
+{
+  "functions": { "api/polish.js": { "maxDuration": 30 } }
+}
